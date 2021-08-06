@@ -105,15 +105,15 @@ window.onload = function(){
                 // IF STATEMENTS TO PROVIDE DIFFERENT IMAGES BASED ON BREWERY TYPE
                 img.className = "img";
                 if(brewery_type === "micro" ){
-                    img.src = `./images/micro.jpg`;
+                    img.src = `./images/micro.png`;
                 }else if(brewery_type==="planning"){
-                    img.src = `./images/planning.jpg`;
+                    img.src = `./images/planning.png`;
                 }else if(brewery_type==="brewpub"){
-                    img.src = `./images/brewpub.jpg`;
+                    img.src = `./images/brewpub.png`;
                 }else if(brewery_type==="large"){
-                    img.src = `./images/large.jpg`;
+                    img.src = `./images/large.png`;
                 }else if(brewery_type==="closed"){
-                    img.src = `./images/closed.jpg`;
+                    img.src = `./images/closed.png`;
                 }else {
                     //The following is incase any new brewery types are added down the line
                     img.src = `./images/blank-profile-picture-png.png`;
