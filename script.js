@@ -22,7 +22,7 @@ window.onload = function(){
         }else{
             // API REQUEST
 
-            //The following api request is specificaly for API's by state
+            //The following api request is specifically for API's by state
             //If A different query is required,
             //change the ?by_state= to ?by_searchVariableHere=
             var request = `https://api.openbrewerydb.org/breweries?by_state=${infoHolder}`;
@@ -65,7 +65,7 @@ window.onload = function(){
                 var updated_at=data[items].updated_at;
                 var created_at=data[items].created_at;
                 // The following variables are for creating the card layouts
-                // I'm creating the elements individualy to allow for maximum control
+                // I'm creating the elements individually to allow for maximum control
                 // as well as easy attribute addition and readability
                 var card =document.createElement("div");
                 var img = document.createElement("img");
@@ -94,7 +94,7 @@ window.onload = function(){
                     state = " Not Provided" ;
                 }
                 //Even though we are searching by state,I still provided a default answers,
-                //in case other search perameters are added down the line
+                //in case other search parameters are added down the line
                 
                 //Create a bootstrap card for easy viewing
 
